@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="Icons/hamburger-menu.svg" alt="" />
+        <a href="https://www.youtube.com/"
+          ><img class="youtube-logo" src="icons/youtube-logo.svg" alt=""
+        /></a>
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="icons/voice-search-icon.svg"
+            alt=""
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" alt="" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="" />
+          <div class="tooltip">YouTube apps</div>
+        </div>
+
+        <div class="notifications-icon-container">
+          <img
+            class="notifications-icon"
+            src="icons/notifications.svg"
+            alt=""
+          />
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+
+        <img
+          class="current-user-picture"
+          src="new-channel-pictures/my-channel.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <a href="https://www.youtube.com/"
+          ><img src="icons/home.svg" alt=""
+        /></a>
+
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Icons/explore.svg" alt="" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" alt="" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg" alt="" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg" alt="" />
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg" alt="" />
+        <div>Library</div>
+      </div>
+    </div>
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="http://www.youtube.com/watch?v=xUPlHxEubyI">
+            <img
+              class="thumbnail"
+              src="new-thumbnails/thumbnail 1.webp"
+              alt=""
+            />
+          </a>
+
+          <div class="video-time">8:14</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@iiTzTimmy"
+              ><img
+                class="profile-picture"
+                src="new-channel-pictures/channel-1.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">THE 4K PROFESSOR</p>
+            <p class="video-author">iiTzTimmy</p>
+            <p class="video-stats">31K views &#183; 4 hours ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=eGguwYPC32I"
+            ><img
+              class="thumbnail"
+              src="new-thumbnails/thumbnail 2.webp"
+              alt=""
+          /></a>
+
+          <div class="video-time">9:04</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@xkcdHatGuy"
+              ><img
+                class="profile-picture"
+                src="new-channel-pictures/channel-2.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              4th Dimension Explained By A High-School Student
+            </p>
+            <p class="video-author">xkcdHatGuy</p>
+            <p class="video-stats">33M views &#183; 13 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=18n8bDnmV48"
+            ><img
+              class="thumbnail"
+              src="new-thumbnails/thumbnail 3.webp"
+              alt=""
+          /></a>
+
+          <div class="video-time">5:18</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@SaitamaonYT">
+              <img
+                class="profile-picture"
+                src="new-channel-pictures/channel-3.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">Silverfang Knows How Strong Saitama Is</p>
+            <p class="video-author">Saitama</p>
+            <p class="video-stats">3.1M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=SsJ_AusntiU"
+            ><img
+              class="thumbnail"
+              src="new-thumbnails/thumbnail 4.webp"
+              alt=""
+          /></a>
+
+          <div class="video-time">6:07</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@TwoMinutePapers">
+              <img
+                class="profile-picture"
+                src="new-channel-pictures/channel-4.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              This AI Learned Boxing…With Serious Knockout Power! 🥊
+            </p>
+            <p class="video-author">Two Minute Papers</p>
+            <p class="video-stats">3.1M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=_XI1A-I30lE"
+            ><img
+              class="thumbnail"
+              src="new-thumbnails/thumbnail 5.webp"
+              alt=""
+          /></a>
+
+          <div class="video-time">11:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@ApexFae"
+              ><img
+                class="profile-picture"
+                src="new-channel-pictures/channel-5.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">The Calmest Apex Player Alive</p>
+            <p class="video-author">Fae</p>
+            <p class="video-stats">26K views &#183; 1 day ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=H54zMD-9Q-8">
+            <img class="thumbnail" src="new-thumbnails/thumbnail 6.webp" alt=""
+          /></a>
+          <div class="video-time">11:41</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@GTExperiments"
+              ><img
+                class="profile-picture"
+                src="new-channel-pictures/channel-6.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              1000HP Nissan GTR NISMO | Forza Horizon 5 | Thrustmaster T300RS
+              gameplay
+            </p>
+            <p class="video-author">GT Experiments</p>
+            <p class="video-stats">2.8M views &#183; 8 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=uEjMyHccX8U">
+            <img
+              class="thumbnail"
+              src="new-thumbnails/thumbnail 7.webp"
+              alt=""
+            />
+          </a>
+
+          <div class="video-time">3:24</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@babishculinaryuniverse"
+              ><img
+                class="profile-picture"
+                src="new-channel-pictures/channel-7.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Binging with Babish: Goodfellas Prison Sauce
+            </p>
+            <p class="video-author">Babish Culinary Universe</p>
+            <p class="video-stats">9.4M views &#183; 6 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=TYWi_iBIcg4"
+            ><img
+              class="thumbnail"
+              src="new-thumbnails/thumbnail 8.webp"
+              alt=""
+          /></a>
+
+          <div class="video-time">28:29</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@SquishyMuffinz"
+              ><img
+                class="profile-picture"
+                src="new-channel-pictures/channel-8.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              1 SQUISHY VS 5 DIAMONDS | IMPOSSIBLE ROCKET LEAGUE CHALLENGE
+            </p>
+            <p class="video-author">SquishyMuffinz</p>
+            <p class="video-stats">195K views &#183; 1 month ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=8sBC3YCTn_o"
+            ><img
+              class="thumbnail"
+              src="new-thumbnails/thumbnail 9.webp"
+              alt=""
+          /></a>
+
+          <div class="video-time">3:02</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@TheOffice">
+              <img
+                class="profile-picture"
+                src="new-channel-pictures/channel-9.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Michael's Safety Training Demonstration - The Office US
+            </p>
+            <p class="video-author">The Office</p>
+            <p class="video-stats">4M views &#183; 5 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=NAtzCEiOb6s"
+            ><img
+              class="thumbnail"
+              src="new-thumbnails/thumbnail 10.webp"
+              alt=""
+          /></a>
+
+          <div class="video-time">13:23</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@CowboyKentRollins">
+              <img
+                class="profile-picture"
+                src="new-channel-pictures/channel-10.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              The Crispiest Chicken Sandwich you've EVER had!
+            </p>
+            <p class="video-author">Cowboy Kent Rollins</p>
+            <p class="video-stats">1.2M views &#183; 4 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=FUGqzE6Je5c"
+            ><img
+              class="thumbnail"
+              src="new-thumbnails/thumbnail 11.webp"
+              alt=""
+          /></a>
+
+          <div class="video-time">11:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@UnrealSensei"
+              ><img
+                class="profile-picture"
+                src="new-channel-pictures/channel-11.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">Why Unreal Engine 5.1 is a Huge Deal</p>
+            <p class="video-author">Unreal Sensei</p>
+            <p class="video-stats">5.4M views &#183; 4 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=X6WHBO_Qc-Q">
+            <img
+              class="thumbnail"
+              src="new-thumbnails/thumbnail 12.webp"
+              alt=""
+          /></a>
+          <div class="video-time">11:41</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@MOVIECLIPS"
+              ><img
+                class="profile-picture"
+                src="new-channel-pictures/channel-12.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Tropic Thunder (5/10) Movie CLIP - Never Go Full Retard (2008) HD
+            </p>
+            <p class="video-author">Movieclips</p>
+            <p class="video-stats">9.6M views &#183; 11 years ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
